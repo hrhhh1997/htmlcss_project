@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body .main header .nav-items{
+    padding: 2em 7rem;
+}
+
+body header, body footer{
+    background-color: #1F2937;
+}
+
+body .main .header-sub-section .text-block h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+body .main .header-sub-section .text-block p{
+    font-size: 18px;
+}
+
+body .main header .nav-items .nav-menu a, body .main .header-sub-section .text-block p, footer p{
+    color: #E5E7EB;
+}
+
+body .main header .nav-items .nav-logo li, body .main .header-sub-section .text-block h1{
+    color: #F9FAF8;
+}
+
+
+
+body .main header .nav-items, body .main header .nav-items .nav-menu{
+    display: flex;
+    justify-content:flex-end;
+    gap: 10rem;
+}
+
+
+body .main header .nav-items .nav-logo, body .main header .nav-items .nav-menu{
+    flex: 1;
+}
+
+body .main header .nav-items li{
+    list-style: none;
+}
+
+body .main header .nav-items li a, body .main a{
+    text-decoration: none;
+}
+
+body .main header .nav-items{
+    margin-bottom: 0.4em;
+}
+
+body .main header .header-sub-section {
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    gap: 3em;
+    padding-left: 7em;
+    padding-right: 7em;
+}
+
+
+body .main .main-container .main-container-A{
+    /* border: 1px solid red; */
+    text-align: center;
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
+
+body .main .main-container .main-container-B blockquote{
+    width: 50%;
+    font-size: 1.5rem;
+    font-family:monospace;
+    text-align: center;
+    margin: auto;
+}
+
+body .main .main-container .main-container-B{
+    display: flex;
+    height: auto;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+body .main .main-container .main-container-B span{
+    display: block;
+    text-align: right;
+}
+
+
+body .main .main-container .main-container-A h2{
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 1em;
+}
+
+body .main .main-container .main-container-B{
+    background-color: #E5E7EB;
+}
+
+body .main .main-container-C{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+body .main .main-container-C .C-inner-div{
+    background-color: #3882F6;
+    padding: 2em;
+    align-self: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+body .main .main-container .main-container-A .image-containers img{
+    height: auto;
+    width: 15rem;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+
+body .main .main-container .main-container-A .image-containers{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+body .main header .header-sub-section .banner-image-div img{
+    min-height: auto;
+    width: 25rem;
+    flex:content;
+}
+
+body .main header .header-sub-section .text-block{
+    width: 30%;
+}
+
+footer{
+    justify-content: center;
+    font-size: 0.8em;
+    height: 3em;
+    display: flex;
+    align-items: center;
+}
+
+
+/* buttons */
+body .main header .header-sub-section p a, body .main .main-container-C .C-inner-div p span a{
+    padding: 0.1rem 0.9rem;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: white;
+    background-color: #3882F6;
+    font-size: 0.8rem;
+}
+
+body .main .main-container-C .C-inner-div p span a{
+    border: 1px solid white;
+}
+
+body .main .main-container-C .C-inner-div p, body .main .main-container-C .C-inner-div h4{
+    color: white;
+}
+
+body .main .main-container-C .C-inner-div p span{
+    margin-left: 2.5rem;
+}
+
+body .main header .header-sub-section .text-block p.space-below{
+    margin-bottom: 0.8em;
+}
+
+
+@media  screen and (max-width:600px){
+    body .main header .header-sub-section .banner-image-div img{
+        height: 20em;
+        width: 15rem;
+    }
+}
